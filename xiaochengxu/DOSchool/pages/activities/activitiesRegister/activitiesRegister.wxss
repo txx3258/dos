@@ -1,0 +1,98 @@
+/* pages/activities/activitiesRegister/activitiesRegister.wxss */
+#personalInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 300rpx;
+}
+#personalInfo view {
+    display: block;
+}
+#personalInfo image {
+    height: 200rpx;
+    width: 200rpx;
+
+    margin: 30rpx;
+    border-radius: 100rpx;
+}
+#personalInfo .welcome {
+    height: 200rpx;
+    width: 400rpx;
+
+    color: #00A6F6;
+    font-size: 32rpx;
+    font-weight: bold;
+    font-family: Helvetica, sans-serif, Arial;
+
+    line-height: 50rpx;
+}
+
+#submitInfo {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    height: 700rpx;
+}
+#submitInfo .inputArea {
+    position: relative;
+    height: 490rpx;
+    margin: 30rpx;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#submitInfo .inputArea view {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+#submitInfo .inputArea text {
+    font-size: 34rpx;
+    line-height: 0;
+}
+#submitInfo .inputArea input {
+    width: 550rpx;
+    font-size: 30rpx;
+    border-style: solid;
+    border-width: 1rpx;
+    border-color: #B7B7B7;
+    border-radius: 8rpx;
+}
+#submitInfo .submitArea {
+    position: relative;
+    display: flex;
+    height: 150rpx;
+}
+#submitInfo .submitArea button {
+    position: relative;
+    top: 5rpx;
+    width: 180rpx;
+    height: 80rpx;
+    display: flex;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 38rpx;
+    font-weight: bold;
+    color: white;    
+
+    justify-content: center;
+    align-items: center;
+}
+
+#message {
+    display: block;
+    height: 200rpx;
+}
+#message button {
+    position: relative;
+    top: 50rpx;
+    left: 50rpx;
+    width: 550rpx;
+    background: #03A9F4;
+    color: white;
+}

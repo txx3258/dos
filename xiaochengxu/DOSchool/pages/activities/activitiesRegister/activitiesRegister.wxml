@@ -1,0 +1,54 @@
+<view class="page">
+  <view id="personalInfo">
+    <view class="portrait">
+      <image src="{{imageURL}}" mode="aspectFill">
+      </image>
+    </view>
+    <view class="welcome">
+      <text>
+        1号DOS校友-朝阳，您好！\n 您正在报名当天下午的古筝活动
+      </text>
+    </view>
+  </view>
+
+  <view id="submitInfo">
+    <form>
+      <view class="inputArea">
+        <view>
+          <text>
+            学号：
+          </text>
+          <input placeholder="无学号填0"/>
+        </view>
+        <view>
+          <text>
+            姓名：
+          </text>
+          <input placeholder="请填写真实姓名"/>
+        </view>
+        <view>
+          <text>
+            手机：
+          </text>
+          <input placeholder="请填写常用手机号"/>
+        </view>
+        <view>
+          <text>
+            微信：
+          </text>
+          <input placeholder="同手机号填1"/>
+        </view>
+      </view>
+
+      <view class="submitArea">
+        <button style="background-color: #E84E40; left: 50rpx;">取消</button>
+        <button style="background-color: #2BAF2B; left: 50rpx;">确认</button>
+      </view>
+    </form>
+  </view>
+
+  <view id="message">
+  <button>轻轻一点，就成DOS校友</button>
+  </view>
+
+</view>

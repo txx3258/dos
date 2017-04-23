@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/activities/activities",
+    "pages/schedule/schedule",
+    "pages/welfare/welfare",
+    "pages/activities/activitiesRegister/activitiesRegister"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#03A9F4",
+    "navigationBarTitleText": "@DOS大学",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/activities/activities",
+        "text": "本周活动"
+      },
+      {
+        "pagePath": "pages/schedule/schedule",
+        "text": "我的行程"
+      },
+       {
+        "pagePath": "pages/welfare/welfare",
+        "text": "校友福利"
+      }
+    ]
+  }
+}

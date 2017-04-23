@@ -1,0 +1,3 @@
+<!--pages/events/events.wxml-->
+
+<button open-type="contact" bindtap="enterRegister">进入活动报名页面</button>
