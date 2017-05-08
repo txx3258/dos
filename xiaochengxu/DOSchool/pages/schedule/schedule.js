@@ -6,6 +6,11 @@ Page({
     motto: 'Hello World',
     userInfo: {}
   },
+  enterRegister: function () {
+    wx.navigateTo({
+      url: '../activities/activitiesRegister/activitiesRegister'
+    })
+  },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

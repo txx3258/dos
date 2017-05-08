@@ -15,15 +15,21 @@
     "list": [
       {
         "pagePath": "pages/activities/activities",
-        "text": "本周活动"
+        "text": "本周活动",
+        "iconPath": "images/tabBar/flag.png",
+        "selectedIconPath": "images/tabBar/flagSelected.png"
       },
       {
         "pagePath": "pages/schedule/schedule",
-        "text": "我的行程"
+        "text": "我的行程",
+        "iconPath":"images/tabBar/calender.png",
+        "selectedIconPath": "images/tabBar/calenderSelected.png"
       },
        {
         "pagePath": "pages/welfare/welfare",
-        "text": "校友福利"
+        "text": "校友福利",
+        "iconPath":"images/tabBar/box.png",
+        "selectedIconPath": "images/tabBar/giftSelected.png"
       }
     ]
   }
