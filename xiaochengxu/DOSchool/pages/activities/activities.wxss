@@ -45,16 +45,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
   border-right: 2rpx solid #B7B7B7;
 }
 .tdleft > text {
   color:#00A6F6; 
-  font-size: 46rpx
+  font-size: 40rpx;
 }
 .tdleft .datef {
   color:#aaaaaa;
-  font-size: 36rpx
+  font-size: 30rpx;
+  
+  margin-top: 10rpx;
 }
 
 .tdright {
@@ -63,12 +64,14 @@
   align-items: center;
 }
 .tdright .content {
-  width: 85%;
+  width: 350rpx;
   display: flex;
   align-items: center;
+  font-size: 35rpx;
+  font-family: 楷体;
 }
 .tdright .count {
-  width: 180rpx;
+  width: 130rpx;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -79,6 +82,15 @@
 }
 .tdright .count .suffix {
   color: grey;
+  font-size: 25rpx;
+}
+.tdright .check{
+  width: 100rpx;
+  display: flex;
+  justify-content: flex-end;
+}
+.tdright .check icon{
+  margin: 15rpx;
 }
 
 .tdweekand {
