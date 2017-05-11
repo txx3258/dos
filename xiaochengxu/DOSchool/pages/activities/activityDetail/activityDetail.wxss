@@ -1,0 +1,116 @@
+/* pages/activities/activityDetail/activityDetail.wxss */
+.contain {
+    background-color: #F0F0F2;
+}
+
+swiper {
+    height: 500rpx;
+}
+swiper image {
+    height: 500rpx;
+}
+swiper .support {
+    position: absolute;
+    top: 20rpx;
+    right: 20rpx;
+    height: 69rpx;
+    width: 100rpx;
+    color: white;
+
+    display: flex;
+    align-items: center;
+}
+swiper .support image {
+    height: 50rpx;
+    width: 50rpx;
+}
+
+.info {
+    display: flex;
+}
+.info .basicInfo {
+    height: 150rpx;
+    width: 600rpx;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 20rpx;
+}
+.info .basicInfo text {
+    margin: 5rpx;
+    margin-left: 15rpx;
+}
+.info .price {
+    position: relative;
+    left: -30rpx;
+    top:80rpx;
+    height: 80rpx;
+    width: 150rpx;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info .price .register {
+    height: 50rpx;
+    width: 150rpx;
+    background-color: #FFA726;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+    color: #F0F0F2;
+
+    border-top-left-radius: 20rpx;
+    border-top-right-radius: 20rpx;
+}
+.info .price .money {
+    height: 30rpx;
+    width: 150rpx;
+    background-color: grey;
+    
+    display: flex;
+    font-size: 22rpx;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+    border-bottom-left-radius: 15rpx;
+    border-bottom-right-radius: 15rpx;
+}
+
+.selection {
+    height: 500rpx;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    padding-top: 40rpx;
+}
+.selection button {
+    height: 100rpx;
+    width: 320rpx;
+    background-color: white;
+
+    color: #444444;
+    font-size: 32rpx;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid darkgrey;
+}
+.selection button image {
+    height: 40rpx;
+    width: 45rpx;
+    
+    margin: 10rpx;
+}
+
+

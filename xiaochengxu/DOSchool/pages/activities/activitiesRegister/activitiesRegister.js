@@ -3,7 +3,7 @@ import { Member, members, memberSample, Subject, Activity, subjectSample, activi
 var app = getApp();
 Page({
   data: {
-    imageURL: '/images/userPortrait.jpeg'
+    imageURL: 'https://modao.cc/uploads3/images/891/8919204/raw_1492662768.jpeg'
   },
 
   cancel: app.cancel,

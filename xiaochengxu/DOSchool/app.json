@@ -3,7 +3,8 @@
     "pages/activities/activities",
     "pages/schedule/schedule",
     "pages/welfare/welfare",
-    "pages/activities/activitiesRegister/activitiesRegister"
+    "pages/activities/activitiesRegister/activitiesRegister",
+    "pages/activities/activityDetail/activityDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",

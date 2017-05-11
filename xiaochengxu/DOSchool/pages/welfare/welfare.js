@@ -25,6 +25,7 @@ Page({
     });
   },
 
+  //用于计算button的位置，根据button数量，用余弦函数得到。
   getButtonPosition: function() {
     var length = this.data.welfareList.length;
     console.log(length);
@@ -40,5 +41,6 @@ Page({
   onLoad: function () {
     console.log("onload");
     this.getButtonPosition();
+    console.log(this.data.buttonPosition)
   }
 })

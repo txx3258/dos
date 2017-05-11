@@ -34,7 +34,7 @@ Page({
 
   tapToActivityDetail: function () {
     wx.navigateTo({
-      url: "/pages/activities/activitiesRegister/activitiesRegister"
+      url: "/pages/activities/activityDetail/activityDetail"
     })
   },
 
