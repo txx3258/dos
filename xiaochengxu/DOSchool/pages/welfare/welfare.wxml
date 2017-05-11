@@ -1,0 +1,11 @@
+
+<!--logs.wxml-->
+<view class="home" bindtap="returnHomePage">
+  <image class="return" src="{{urlList.rightImage}}"></image>
+  <image class="homeIcon" src="{{urlList.homeImage}}"></image>
+</view>
+<image class="sun" src="{{urlList.sunImage}}"></image>
+<image class="run" src="{{urlList.runImage}}"></image>
+<block wx:for="{{welfareList}}" wx:key="{{name}}">
+  <button style="background-color:{{welfareList[index].color}}; top:{{buttonPosition.toTop[index]}}rpx; left:{{buttonPosition.toLeft[index]}}rpx">{{item.name}}</button>
+</block>

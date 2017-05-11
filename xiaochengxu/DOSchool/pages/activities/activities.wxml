@@ -1,0 +1,140 @@
+
+<!--pages/events/events.wxml-->
+<view class="table">
+  <block wx:for="{{listData}}" wx:key="{{day}}">
+    <view wx:if="{{index % 2 == 0}}">
+      <view class="tr bg-g" wx:if="{{index <= 4}}">
+        <view class="tdleft">
+          <text>{{item.day}}</text>
+          <text class="datef">{{item.date}}</text>
+        </view>
+        <view class="tdright" bindtap="tapToActivityDetail">
+          <view class="content">
+            <image src="{{urlList.dayTime[2]}}"></image>
+            {{item.activity[0].name}}</view>
+            <view class="check">
+            <icon hidden="true" type="success"/>
+          </view> 
+          <view class="count">
+            <image src="{{urlList.membersCount}}"></image>
+            <text class="suffix">{{item.activity[0].members}}</text>
+          </view>
+        </view>
+      </view>
+      <!--周日-->
+      <view class="trweekand bg-g" style="border-bottom-width:6rpx;" wx:else>
+        <view class="tdleft">
+          <text>{{item.day}}</text>
+          <text class="datef">{{item.date}}</text>
+        </view>
+        <view class="tdright">
+          <view class="tdweekand">
+            <view bindtap="tapToActivityDetail">
+              <view class="content">
+                <image src="{{urlList.dayTime[0]}}"></image>{{item.activity.morning[0].name}}</view>
+                <view class="check">
+                <icon hidden="false" type="success"/>
+              </view>
+              <view class="count">
+                <image src="{{urlList.membersCount}}"></image>
+                <text class="suffix">{{item.activity.morning[0].members}}</text>
+              </view>
+            </view>
+            <view bindtap="tapToActivityDetail">
+              <view class="content">
+                <image src="{{urlList.dayTime[1]}}"></image>{{item.activity.afternoon[0].name}}</view>
+                <view class="check">
+                <icon type="success"/>
+              </view>
+              <view class="count">
+                <image src="{{urlList.membersCount}}"></image>
+                <text class="suffix">{{item.activity.afternoon[0].members}}</text>
+              </view>
+              
+            </view>
+            <view bindtap="tapToActivityDetail">
+              <view class="content">
+                <image src="{{urlList.dayTime[2]}}"></image>{{item.activity.night[0].name}}</view>
+                <view class="check">
+                <icon type="success"/>
+              </view>
+              <view class="count">
+                <image src="{{urlList.membersCount}}"></image>
+                <text class="suffix">{{item.activity.night[0].members}}</text>
+              </view>
+              
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view wx:else>
+      <view class="tr" wx:if="{{index <= 4}}">
+        <view class="tdleft">
+          <text>{{item.day}}</text>
+          <text class="datef">{{item.date}}</text>
+        </view>
+        <view class="tdright" bindtap="tapToActivityDetail">
+          <view class="content">
+            <image src="{{urlList.dayTime[2]}}"></image>
+            {{item.activity[0].name}}</view>
+            <view class="check">
+            <icon type="success"/>
+          </view>
+          <view class="count">
+            <image src="{{urlList.membersCount}}"></image>
+            <text class="suffix">{{item.activity[0].members}}</text>
+          </view>
+          
+        </view>
+      </view>
+      <!--周六-->
+      <view class="trweekand" wx:else>
+        <view class="tdleft">
+          <text>{{item.day}}</text>
+          <text class="datef">{{item.date}}</text>
+        </view>
+        <view class="tdright">
+          <view class="tdweekand">
+            <view bindtap="tapToActivityDetail">
+              <view class="content">
+                <image src="{{urlList.dayTime[0]}}"></image>{{item.activity.morning[0].name}}</view>
+                <view class="check">
+                <icon hidden="true" type="success"/>
+              </view>
+              <view class="count">
+                <image src="{{urlList.membersCount}}"></image>
+                <text class="suffix">{{item.activity.morning[0].members}}</text>
+              </view>
+              
+            </view>
+            <view bindtap="tapToActivityDetail">
+              <view class="content">
+                <image src="{{urlList.dayTime[1]}}"></image>{{item.activity.afternoon[0].name}}</view>
+                <view class="check">
+                <icon hidden="true" type="success"/>
+              </view>
+              <view class="count">
+                <image src="{{urlList.membersCount}}"></image>
+                <text class="suffix">{{item.activity.afternoon[0].members}}</text>
+              </view>
+              
+            </view>
+            <view bindtap="tapToActivityDetail">
+              <view class="content">
+                <image src="{{urlList.dayTime[2]}}"></image>{{item.activity.night[0].name}}</view>
+                <view class="check">
+                <icon type="success"/>
+              </view>
+              <view class="count">
+                <image src="{{urlList.membersCount}}"></image>
+                <text class="suffix">{{item.activity.night[0].members}}</text>
+              </view>
+              
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

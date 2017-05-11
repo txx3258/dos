@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/activities/activities",
+    "pages/schedule/schedule",
+    "pages/welfare/welfare",
+    "pages/activities/activitiesRegister/activitiesRegister",
+    "pages/activities/activityDetail/activityDetail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#03A9F4",
+    "navigationBarTitleText": "@DOS大学",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/activities/activities",
+        "text": "活动",
+        "iconPath": "images/tabBar/flag.png",
+        "selectedIconPath": "images/tabBar/flagSelected.png"
+      },
+      {
+        "pagePath": "pages/schedule/schedule",
+        "text": "我的",
+        "iconPath":"images/tabBar/user.png",
+        "selectedIconPath": "images/tabBar/userSelected.png"
+      },
+       {
+        "pagePath": "pages/welfare/welfare",
+        "text": "福利",
+        "iconPath":"images/tabBar/box.png",
+        "selectedIconPath": "images/tabBar/gift.png"
+      }
+    ]
+  }
+}

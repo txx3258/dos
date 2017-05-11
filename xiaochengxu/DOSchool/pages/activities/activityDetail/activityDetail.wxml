@@ -1,0 +1,29 @@
+<view class="contain">
+  <swiper interval="4000" autoplay="true">
+    <block wx:for="{{imageUrls}}">
+      <swiper-item>
+        <image class="post" mode="scaleToFill" src="{{item}}"></image>
+      </swiper-item>
+    </block>
+    <view class="support">
+      <image src="{{urls.heartImage}}"></image>
+      <text>999</text>
+    </view>
+  </swiper>
+  <view class="info">
+    <view class="basicInfo">
+      <text style="color:blue">60元学会【古筝】(包会)</text>
+      <text style="color:orangered; font-size:30rpx;">2017-3-19 9:30-11:20</text>
+      <text style="color:mediumseagreen; font-size:30rpx;">@DOS春熙校区：\n时代尊邸7栋31楼3103-蜜糖小厨</text>
+    </view>
+    <view class="price" bindtap="tapToRegister">
+      <view class="register">报名</view>
+      <view class="money">¥ 60.0</view>
+    </view>
+  </view>
+  <view class="selection">
+    <block wx:for="{{selections}}">
+      <button id="button{{index}}" bindtap="tapButton"><image src="{{item.iconImage}}"></image>{{item.title}}</button>
+    </block>
+  </view>
+</view>

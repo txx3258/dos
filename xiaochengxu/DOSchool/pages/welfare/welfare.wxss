@@ -1,0 +1,43 @@
+.home {
+  position: absolute;
+  top: 20rpx;
+  right: 20rpx;
+  height: 100rpx;
+  width: 150rpx;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*background-color: red;*/
+}
+.home .return {
+  height: 40rpx;
+  width: 40rpx;
+}
+.home .homeIcon {
+  height: 81rpx;
+  width: 81rpx;
+}
+
+.sun {
+  position: absolute;
+  left: -100rpx;
+  top: 200rpx;
+  height: 400rpx;
+  width: 400rpx;
+}
+
+.run {
+  position: absolute;
+  right: 20rpx;
+  bottom: 250rpx;
+  height: 200rpx;
+  width: 280rpx;
+}
+
+button {
+  position: absolute;
+  height: 100rpx;
+  width: 300rpx;
+  color: white;
+}
